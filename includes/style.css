@@ -1,0 +1,41 @@
+@font-face {
+	font-family: vazir;
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/vazir/Vazir-FD.eot');
+	src: url('fonts/vazir/Vazir-FD.eot') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/vazir/Vazir-FD.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/vazir/Vazir-FD.ttf') format('truetype');
+}
+@font-face {
+	font-family: vazir;
+	font-style: normal;
+	font-weight: bold;
+	src: url('fonts/vazir/Vazir-Bold-FD.eot');
+	src: url('fonts/vazir/Vazir-Bold-FD.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/vazir/Vazir-Bold-FD.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/vazir/Vazir-Bold-FD.ttf') format('truetype');
+}
+
+
+body,ul,li,p,a,span,h1,h2,h3,h4,h5,h6{
+    font-family: vazir ;
+}
+
+
+.page-footer{
+    background-color:#f8f9fa
+}
+
+
+#carouselExampleControls{
+    margin-bottom: 25px;
+
+}
+#carouselExampleControls img{
+    max-height: 350px !important;
+}
+
+.flex-c .row{
+    align-items: center;
+}
